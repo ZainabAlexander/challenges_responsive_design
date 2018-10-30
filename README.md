@@ -9,6 +9,11 @@
 - The background colour for large desktop is orange.
 - When changing the resolution you will be able to see the colour change as well.
 
+## Responsive Design Challenge 2:
+- Created webpage layout using css grids.
+- Added heading.
+- Added byline.
+
 
 ##Technologies used:
 - HTML
