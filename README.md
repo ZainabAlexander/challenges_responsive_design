@@ -13,7 +13,9 @@
 - Created webpage layout using css grids.
 - Added heading.
 - Added byline.
-
+- Added image and paragraph
+- Added next tech
+- added story stream
 
 ##Technologies used:
 - HTML

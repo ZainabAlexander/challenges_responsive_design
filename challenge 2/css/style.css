@@ -1,28 +1,86 @@
-.container {
-display:grid;
-justify-content: center;
-align-items: center;
-grid-auto-rows: repeat (8,1fr);
-grid-auto-columns: repeat (2, 1fr);
-grid-gap:20px;
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
 }
 
+a {
+    color: #e5127d;
+    box-sizing: border-box;
+    text-decoration: inherit;
+    vertical-align: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 18px;
+    text-align: left;
+    font-family: inherit;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-right: 20%;
+    letter-spacing: 3;
+}
+h2 {
+    color: #424242;
+}
+
+.container {
+
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-rows: repeat (8,1fr);
+    grid-auto-columns: repeat (2, 1fr);
+    grid-gap: 20px;
+    padding-left: 15%;
+    padding-right:10%;
+    }
+
 .heading {
-background-color: blue;
-grid-column-start: 1;
+    grid-column-start: 1;
     grid-column-end: 3;
+    padding-right: 20%;
 }
 
 .byline {
-    background-color: gray;
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-right: 20%;
 }
+
+.media_links {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color:brown;
+    position:relative;
+    display: inline;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 20%;
+
+}
+
 .image_para {
-    background-color: orange;
+    box-sizing:border-box;
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-right: 20%;
 }
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom:10%;
+}
+
 .ad_bar {
     background-color: rgb(74, 117, 38);
     grid-column-start: 2;
@@ -30,19 +88,62 @@ grid-column-start: 1;
 }
 
 .storystream {
-    background-color: rgb(255, 0, 13);
+
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-right: 20%;
+}
+.story_stream_list {
+    margin-bottom: 2.4em;
 }
 
 .next_tech{
-    background-color: rgb(0, 255, 221);
+
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-right: 20%;
 }
 
 .recommended{
     background-color: pink;
     grid-column-start: 1;
     grid-column-end: 2;
+    padding-right: 20%;
+}
+/* Social media buttons styling */
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;  
+}
+/* Share */
+.fa-share {
+    background: #3B5998;
+    color: white;
+}
+/* Facebook,Twitter,Share icon styling */
+.media_links > ul {
+    list-style-type: none;
 }
