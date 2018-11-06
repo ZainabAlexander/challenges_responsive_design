@@ -40,7 +40,8 @@ h2 {
     grid-auto-columns: repeat (2, 1fr);
     grid-gap: 20px;
     padding-left: 15%;
-    padding-right:10%;
+    margin-left:20px;
+    /* padding-right:10%; */
     }
 
 .heading {
@@ -58,7 +59,6 @@ h2 {
 .media_links {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-color:brown;
     position:relative;
     display: inline;
     justify-content: center;
@@ -72,8 +72,8 @@ h2 {
     box-sizing:border-box;
     grid-column-start: 1;
     grid-column-end: 2;
-    padding-right: 20%;
 }
+
 .image {
     display: block;
     width: 100%;
@@ -82,9 +82,25 @@ h2 {
 }
 
 .ad_bar {
-    background-color: rgb(74, 117, 38);
     grid-column-start: 2;
     grid-column-end: 3;
+    display:block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ad_bar > img {
+    width: 75%;
+    max-width: 100%;
+    height:100%;
+}
+.ad_bar > p {
+    font-size: 11px;
+    text-align: center;
+}
+.ad_bar div {
+    width: 100px;
+    height: 150px;
 }
 
 .storystream {
@@ -101,14 +117,14 @@ h2 {
 
     grid-column-start: 1;
     grid-column-end: 2;
-    padding-right: 20%;
+    padding-left:20px;
 }
 
 .recommended{
-    background-color: pink;
     grid-column-start: 1;
     grid-column-end: 2;
     padding-right: 20%;
+    display: inline;
 }
 /* Social media buttons styling */
 
@@ -146,4 +162,49 @@ h2 {
 /* Facebook,Twitter,Share icon styling */
 .media_links > ul {
     list-style-type: none;
+}
+
+.media_link_items{
+    display: flex;
+    flex-flow: row nowrap;
+    letter-spacing: 20px;
+    line-height: 0;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recommended{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.recommended div{
+    width: 150px;
+    height: 220px;
+}
+
+.recommended img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.sponsor{
+    height: 50px;
+    font-size: 11px;
+}
+
+.recommended_block{
+    float:none;
+    width:auto;
+}
+
+.quote{
+    color: #424242;
+    padding: 0px 0 0px;
+    text-align: left;
+    line-height: 1.25;
+    font-size: 15px;
 }
