@@ -1,0 +1,229 @@
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+
+
+.grid-container-1 {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns: 1352px;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+    background-color: black;
+    color : white;
+    padding : 20px;
+
+
+}
+
+  .grid-container-1 > div {
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+      margin-left: 10px;
+  }
+
+   .grid-container-2 {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns: 676px 676px;
+    /* Create spaces between items or "blocks" */
+    grid-row-gap:15px;
+    background-color:black;
+    color :white;
+    padding : 20px;
+}
+
+.grid-container-2 > div {
+    background:radial-gradient(50% 135%,#2c2c2c 0,#161616 100%);
+    text-align: left;
+    padding: 20px 0;
+    font-size: 24px;
+    width:676px;
+    height:350px;
+    margin-left: 10px;
+  }
+
+   .grid-container-3 {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns: 676px 676px;
+    /* Create spaces between items or "blocks" */
+    grid-row-gap:15px;
+    background-color:black;
+    color :white;
+    padding : 20px;
+
+}
+
+.grid-container-3 > div {
+
+    background:radial-gradient(50% 135%,#2c2c2c 0,#161616 100%);
+    text-align: left;
+    padding: 20px 0;
+    font-size: 24px;
+    width:676px;
+    height:350px;
+    margin-left: 10px;
+  }
+
+   .grid-container-4 {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns: 1360px;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+
+    background-color:black;
+    color : white;
+    padding : 20px;
+
+}
+.grid-container-4 > div {
+      background-color: black;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+      margin-left: 10px;
+
+  }
+  .grid-container-5 {
+    display: grid;
+    /* Creating Columns */
+    grid-template-columns: 1360px;
+        /* Create spaces between items or "blocks" */
+    grid-gap:15px;
+    background-color: black;
+    color : white;
+    padding : 20px;
+
+}
+
+  .grid-container-5 > div {
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/3247ab9b-48d2-49fe-9253-9e869a84e8dd/d5f212ab-2a02-4199-8c57-4533d1ebb6ce/ZA-en-20181105-popsignuptwoweeks-perspective_alpha__custom.jpg') ; 
+      text-align: center;
+      font-size: 24px;
+      margin-left: 10px;
+      height: 400px;
+  }
+
+  .item-5 {
+      display:grid;
+      width:676px;
+      height:350px;
+  }
+
+    img {
+    display: block;
+    width: 100%;
+    height: 300px;
+   }
+
+   .item-2 > img{
+    width: 100%;
+    height: 400px;
+}
+
+.item-2 > h1 {
+    font-size: 4.0rem;
+    line-height: 3.5rem;
+    margin-bottom: .5rem;
+}
+.item-3{
+    margin-left:10px;
+}
+
+
+/* style buttons */
+
+.button {
+    background-color:#e50914;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid #e50914;
+    width: 236px;
+    height:30px;
+    margin-left: 100px;
+    padding-top: 10px;
+}
+
+.button-1 {
+    background: rgba(0,0,0,0);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 236px;
+    height:30px;
+    margin-left: 100px;
+    vertical-align: middle;
+    font-weight: 400;
+    letter-spacing: .1px;
+    padding-top: 10px;
+}
+.button-2 {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    float: right;
+    color: white;
+}
+/* styling of headings in its respected class */
+
+.item-8>h1{
+ margin-left:100px;
+}
+
+.item-8>h5 {
+    margin-left:100px;
+}
+
+.item-6>h1{
+    margin-left:100px;
+   }
+   
+.item-6>h5 {
+     margin-left:100px;
+   }
+
+   .item-3>h1{
+    margin-left:100px;
+   }
+   
+   .item-3 > h5 {
+    margin-left:100px;
+    padding-left:5px;
+   }
+
+   /* styling list */
+
+   .footer_links > ul{
+    list-style-type: none;
+    text-align: left;
+   }
+   .logo{
+       height: 20%;
+       width:10%;
+   }
+   .logo >img{
+       widows: 100%;
+       height:auto;
+   }
+
+   a{
+    color:gray;
+    text-decoration-line: underline;
+    font-size:20px;
+   }

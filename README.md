@@ -16,6 +16,14 @@
 - Added image and paragraph
 - Added next tech
 - added story stream
+- added recommended grid
+- styled the website as closely as i could to the original
+- made it responsive for mobile, tablet and large screen.
+
+## Responsive Design Challenge 3:
+- Created a webpage .
+- used CSS grids to create the layout.
+
 
 ##Technologies used:
 - HTML
