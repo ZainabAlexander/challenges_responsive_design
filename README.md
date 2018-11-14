@@ -23,6 +23,8 @@
 ## Responsive Design Challenge 3:
 - Created a webpage .
 - used CSS grids to create the layout.
+- Styled it using css.
+- Made it responsive for the different screen sizes
 
 
 ##Technologies used:
